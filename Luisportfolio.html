@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+    <style>
+        body{
+        font-family: Arial,Helvetica,sans-serif;
+        background: #f4f5ff;
+        margin: 0;    
+        }
+        header {
+        background: linear-gradient(135deg, #6a4c93, #8e5bb7);
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+        }
+        header h1 {
+        font-size: 40px;
+        margin: 0;
+        }
+        header p {
+        font-size: 18px;
+        margin-top: 10px;
+        }
+        body > img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 30px auto;
+        border-radius: 50%;
+        object-fit: cover;
+        }
+        section, body > div {
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 25px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        span {
+        color: #6a4c93;
+        font-weight: bold;
+        }
+        section h2,
+        div h2 {color: #6a4c93;}
+        ul {padding-left: 25px;}
+        li {margin: 8px 0;}
+        a {
+        color: #6a4c93;
+        text-decoration: none;
+        font-weight: bold;
+        }
+        a:hover {
+        color: #9b59b6;
+        }
+        input,
+        select,
+        textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0 15px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        }
+        textarea {
+        height: 120px;
+        resize: vertical;
+        }
+        button {
+        width: 100%;
+        padding: 12px;
+        background: #6a4c93;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        }
+        button:hover {
+        background: #8e5bb7;
+        }
+        .project {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Luis Rafael R. Villafranca</h1>
+        <p> Aspiring Engineer </p>
+    </header>
+    <img src="C:\Users\ehlar\OneDrive\Pictures\Camera Roll\WIN_20261007_10_24_21_Pro.jpg" alt="My Profile Picture">
+    <section>
+    <h2>About Me</h2>
+    <p>
+    Hi, my name is Luis Rafael R. Villafranca.
+    I am an aspiring engineer with a passion for
+    <span>technology and innovation.</span>
+    </p>  
+    </section>
+    <div>
+        <h2>My Works</h2>
+        <p> I am currently learning the foundations in math and science while doing hands on building.</p>
+    </div>
+    <section>
+    <h2>My Works</h2>
+    <h3>My First Website</h3>
+    <div class="project">
+    <h3>My First Website</h3>
+
+
+    <ul>
+        <li>HTML & CSS Project</li>
+        <li>My First Webpage</li>
+        <li>Uses Images and Links</li>
+        <li><a href="https://github.com/Luis-V-lang/Q1-Drill-1">View Project</a></li>
+    </ul>
+    </div>
+    <div class="project">
+<ul>
+        <li>HTML & CSS Project</li>
+        <li>HTML Forms</li>
+        <li>Movie Recommendations</li>
+        <li><a href="https://github.com/Luis-V-lang/Practice-1">View Project</a></li>
+    </ul>
+</div>
+    </section>
+    <div>
+    <h2>Contact Me</h2>
+
+
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your email">
+    <br> <br>
+    <label for="How did you Find me?">How did you Find me?</label>
+    <input type="radio" id="Google" name="Google" value="G">
+    <label for="Google">Google</label>
+    <input type="radio" id="Friends" name="Friends" value="F">
+    <label for="Friends">Friends</label>
+    <input type="radio" id="Social Media" name="Social Media" value="SM">
+    <label for="Social Media">Social Media</label>
+    <br> <br>
+    <label for="Rate My Portfolio">Rate My Portfolio</label>
+    <br>
+    <select name="services" id="services">
+        <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+        <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+        <option value="⭐⭐⭐">⭐⭐⭐</option>
+        <option value="⭐⭐">⭐⭐</option>
+        <option value="⭐">⭐</option>
+    </select>
+    <br><br>
+    <label for="Any Feedback?">Any Feedback?</label>
+    <br>
+    <textarea type="text" id="feedback" name="feedback" placeholder="Feedback here..."></textarea>
+    <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
+

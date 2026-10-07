@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miko's Portfolio</title>
+
+    <style>
+        body {
+            background-color: #171717;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 850px;
+        }
+
+        h1, h2 {
+            color: #8ab4f8;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        .project {
+            background-color: #252525;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #8ab4f8;
+        }
+
+        input, select, textarea {
+            display: block;
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #252525;
+            color: white;
+            border: 1px solid #555;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #8ab4f8;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        
+        <h1>Mikhail Canice S. Arenal</h1>
+        <p>Aspiring Machine Learning Engineer</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\ehlar\OneDrive\Pictures\Camera Roll\WIN_20261007_10_24_13_Pro.jpg" alt="Profile picture">
+
+        <p>
+            Hello! I'm Miko, a student interested in technology,
+            programming, and machine learning.
+        </p>
+
+        <p>
+            I want to improve my skills and learn how technology
+            can be used to solve real-world problems.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <p>
+            Currently trying to master the main pillars of
+            Math, Science, and Coding.
+        </p>
+
+        <ul>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>Coding</li>
+        </ul>
+
+        <h3>My Learning Goals</h3>
+
+        <dl>
+            <dt>Coding</dt>
+            <dd>Learning and mastering JavaScript, Python and C++</dd>
+
+            <dt>Mathematics</dt>
+            <dd>Improving my problem-solving skills.</dd>
+
+            <dt>Science</dt>
+            <dd>Understanding scientific concepts and applications.</dd>
+        </dl>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>1. Favorite Music Artist</h3>
+            <p>A website introducing my favorite music artist.</p>
+            <a href="https://github.com/Mecuh/ICTQ1_SW1" target="_blank">View Repository</a>
+        </div>
+
+        <div class="project">
+            <h3>2. Rate  Movie</h3>
+            <p>A design project for rating movies.</p>
+            <a href="https://github.com/Mecuh/RateAmovie" target="_blank">View Repository</a>
+        </div>
+
+        <div class="project">
+            <h3>3. Three Way Portfolio</h3>
+            <p>A school project that helped me practice my ICT skills.</p>
+            <a href="https://github.com/Mecuh/LP_ICT9R_Q1Project_Arenal_Mikhail.html" target="_blank">View Repository</a>
+        </div>
+
+        <h3>Project List</h3>
+        <ol>
+            <li>Favorite Music Artist</li>
+            <li>Rate  Movie</li>
+            <li>Three Way Portfolio</li>
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to leave your information and feedback.</p>
+
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="Rate me">Rate me:</label>
+                <select id="interest" name="interest">
+                    <option value="⭐">⭐</option>
+                    <option value="⭐⭐">⭐⭐</option>
+                    <option value="⭐⭐⭐">⭐⭐⭐</option>
+                    <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mikhail's Portfolio</p>
+    </footer>
+
+</body>
+</html>
